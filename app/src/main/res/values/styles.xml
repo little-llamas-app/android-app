@@ -8,4 +8,20 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- XML file for the style (saved in res/values/) -->
+
+    <style name="AtHomeDayCareMan">
+        <item name="android:fontFamily">Mali</item>
+        <item name="android:textColor">#7D3BD9</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="Typography">
+        <item name="android:fontFamily">Mali</item>
+        <item name="android:textColor">#FF333333</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>

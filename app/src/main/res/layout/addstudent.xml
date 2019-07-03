@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="700dp">
+
+        <TextView
+            android:id="@+id/textViewFormName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="New Student!!"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewFormName"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:text="Firstname"
+            android:textColor="#FFFFFF" />
+
+
+        <EditText
+            android:id="@+id/editTextFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_below="@+id/textViewFirstName"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Firstname"
+            android:inputType="textPersonName"
+            android:paddingLeft="15dp" />
+
+        <TextView
+            android:id="@+id/textViewLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextFirstName"
+            android:layout_alignLeft="@+id/editTextFirstName"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="14dp"
+            android:text="Lastname"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/editTextLastName"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_below="@+id/textViewLastName"
+            android:layout_alignLeft="@+id/textViewLastName"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Lastname"
+            android:inputType="textPersonName"
+            android:paddingLeft="15dp" />
+
+        <TextView
+            android:id="@+id/textViewPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_below="@+id/editTextLastName"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="21dp"
+            android:text="Emergency Contact"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_below="@+id/textViewPhone"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Phone"
+            android:inputType="phone"
+            android:paddingLeft="15dp" />
+
+        <TextView
+            android:id="@+id/textViewUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextPhone"
+            android:layout_alignLeft="@+id/editTextPhone"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="Phone"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/Cancel_Button"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextaddr"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="43dp"
+            android:layout_marginRight="27dp"
+            android:text="Cancel"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/MessageforRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RegisterButton"
+            android:layout_marginTop="54dp"
+            android:layout_toRightOf="@+id/textViewUserName"
+            android:text=""
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textViewPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewUserName"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="28dp"
+            android:text="Address"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/editTextaddr"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_below="@+id/textViewUserName"
+            android:layout_alignParentRight="true"
+            android:ems="10"
+            android:hint="Address" />
+
+
+        <Button
+            android:id="@+id/RegisterButton"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextaddr"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="47dp"
+            android:text="Submit"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+</LinearLayout>

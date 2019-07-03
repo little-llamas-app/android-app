@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "224943434563",
+    "firebase_url": "https://little-llamas-app.firebaseio.com",
+    "project_id": "little-llamas-app",
+    "storage_bucket": "little-llamas-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224943434563:android:4c2c223948eaa5b6",
+        "android_client_info": {
+          "package_name": "com.example.littlellamasappandroid_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224943434563-avmu4ada9e1sluru54hpjnrs7kcsfajk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.littlellamasappandroid_app",
+            "certificate_hash": "647e6e54b0542690cad9bea3ba6d70a7e1ff629d"
+          }
+        },
+        {
+          "client_id": "224943434563-eeto59uk981kskrc7dfhh3icoegk855q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.littlellamasappandroid_app",
+            "certificate_hash": "257f29f6221b14f8c562abf13fd35f204dbcf3f6"
+          }
+        },
+        {
+          "client_id": "224943434563-4mujrocpvfjncggm545pmgmam3rrm6g8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkT22XXyBM2-KEqnWVbLXg1WLo_PJSKW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224943434563-4mujrocpvfjncggm545pmgmam3rrm6g8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,12 +1,25 @@
 <resources>
-    <string name="app_name">Little Llamas App/android-app</string>
+    <string name="app_name">Little Llamas App</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">Sign Up</string>
     <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_up_short">Sign Up</string>
+    <string name="action_new_user">"New User? Register Here"</string>
     <string name="welcome">"Welcome !"</string>
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <!-- Strings related to main page grid layout card view -->
+    <string name="home_title">At Home Daycare Management Made Simple</string>
+    <string name="action_students">Students</string>
+    <string name="action_curriculum">Curriculum</string>
+    <string name="action_reminders">Reminders</string>
+    <string name="action_nutrition">Nutrition</string>
+    <string name="action_activities">Activities</string>
+    <string name="action_reports">Reports</string>
+    <string name="action_student_view">Submit</string>
+
 </resources>

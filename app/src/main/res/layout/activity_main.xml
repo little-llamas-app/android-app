@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:weightSum="10"
+    tools:context="com.example.littlellamasappandroid_app.ui.dashboard.MainActivity">
+
+    <RelativeLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/textGrid"
+            style="AtHomeDayCareMan"
+            android:gravity="center"
+            android:text="@string/home_title"
+            android:textSize="24sp"
+            android:textColor="#7D3BD9"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <GridLayout
+        android:id="@+id/mainGrid"
+        android:rowCount="3"
+        android:columnCount="2"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="14dp">
+
+        <!-- ROW 1  -->
+        <!-- COLUMN 1  -->
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_rowWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardBackgroundColor="@color/colorCardview"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="117dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/students" />
+
+                <TextView
+                    android:textAlignment="center"
+                    android:text="@string/action_students"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- COLUMN 2  -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_rowWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardBackgroundColor="@color/colorCardview"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="112dp"
+                    android:layout_height="79dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/note" />
+
+                <TextView
+                    android:textAlignment="center"
+                    android:text="@string/action_curriculum"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <!-- ROW 2  -->
+        <!-- COLUMN 1  -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_rowWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardBackgroundColor="@color/colorCardview"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="64dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/reminders" />
+
+                <TextView
+                    android:textAlignment="center"
+                    android:text="@string/action_reminders"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- COLUMN 2  -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_rowWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardBackgroundColor="@color/colorCardview"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="67dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/apple" />
+
+                <TextView
+                    android:textAlignment="center"
+                    android:text="@string/action_nutrition"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <!-- ROW 3  -->
+        <!-- COLUMN 1  -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_rowWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardBackgroundColor="@color/colorCardview"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="116dp"
+                    android:layout_height="78dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/singing" />
+
+                <TextView
+                    android:textAlignment="center"
+                    android:text="@string/action_activities"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- COLUMN 2  -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_rowWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardBackgroundColor="@color/colorCardview"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="111dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/sleeping" />
+
+                <TextView
+                    android:textAlignment="center"
+                    android:text="@string/action_reports"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+</LinearLayout>
